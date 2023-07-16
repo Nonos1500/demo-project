@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="17.825">
+    <testcase classname="The application should be running" name="simple search" time="9.521">
+        <system-out>
+            <![CDATA[Given I am on the home page.................................................passed
+When I search for "wooden spoon"............................................passed
+Then I should see the results...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="The application should be running" name="another search" time="8.119">
+        <system-out>
+            <![CDATA[Given I am on the home page.................................................passed
+When I search for "useless box".............................................passed
+Then I should see more results..............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
